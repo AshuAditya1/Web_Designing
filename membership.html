@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Plans - Fitness Pro Gym</title>
+    <style>
+        /* Base Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 20px 0 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ff6b6b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Page Layout */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .membership-plans {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .plan {
+            flex: 1 1 300px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .plan:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .plan h2 {
+            font-size: 1.8rem;
+            color: #ff6b6b;
+        }
+
+        .plan p {
+            color: #666;
+        }
+
+        .price {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 20px 0;
+            color: #333;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1rem;
+            background: #ff6b6b;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #e85757;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #ff6b6b;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Fitness Forge Gym</h1>
+        
+    </header>
+
+    <!-- Membership Plans Section -->
+    <div class="container">
+        <h2 style="text-align: center; color: #333;">Choose Your Membership Plan</h2>
+        <div class="membership-plans">
+            <!-- Basic Plan -->
+            <div class="plan">
+                <h2>Basic Plan</h2>
+                <p>Access to gym facilities and equipment during standard hours.</p>
+                <p class="price">$29/month</p>
+                <a href="#" class="btn">Join Now</a>
+            </div>
+            
+            <!-- Standard Plan -->
+            <div class="plan">
+                <h2>Standard Plan</h2>
+                <p>Includes gym access, group classes, and sauna facilities.</p>
+                <p class="price">$49/month</p>
+                <a href="#" class="btn">Join Now</a>
+            </div>
+            
+            <!-- Premium Plan -->
+            <div class="plan">
+                <h2>Premium Plan</h2>
+                <p>All-inclusive access with personal training sessions and priority support.</p>
+                <p class="price">$79/month</p>
+                <a href="#" class="btn">Join Now</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
